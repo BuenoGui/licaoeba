@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form>
+<input type="text" placeholder="Dígite seu nome"/>
+<br>
+<label for="email">Seu gmail</label>
+<input id="email"/>
+<br>
+Olha que legal, por causa do Label com um ID, quando eu clico na mensagem "SEU GMAIL" que é a minha mensagem label, ele seleciona o meu input, pelo ID
+<br/>
+<input type="tel" placeholder="seu número">
+<br> teclado só númerico para celulares <br>
+<input type="number" max="10" min="1" step="3"> só números <br>
+<input type="file"> <br>
+<input type="color"> isso é uma ideia boa para o usuario customizar a tela <br>
+<input type="checkbox" id="termos"> <label for="termos">Aceito os termos de uso</label>
+
+<p>Qual sua cor favorita?</p>
+<input type="radio" name="cor-favorita" id="Purple" title="roxo"> <label for="roxo">Roxo</label>
+<input type="radio" name="cor-favorita" id="Yellow" title="amarelo"><label for="amarelo">Amarelo</label>
+<input type="radio" name="cor-favorita" id="Green" title="verde"><label for="verde">Verde</label>
+<br> Se todos os Names estiverem iguais, o computador entende que a pergunta é a mesma, então só pode uma resposta <br>
+Com names diferentes eu poderia selecionar as 3 opções ao mesmo tempo <br>
+<label for="Filme">Qual seu filme favorito?</label> <br>
+<select multiple>
+    <option>A Fuga das Galinhas</option>
+    <option>Deu a Louca na Chapeuzinho vermelho</option>
+    <option>Nosferatu em preto e branco legendado do Alemão</option>
+</select>
+<br>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<br>
+<button type="submit"> Enviar </button>
+<button type="reset"> Limpar </button>
+<button> Voltar? </button>
+
+
+
+    </form>
+
+
+<a href="./index.html">voltar</a>
+</body>
+</html>
