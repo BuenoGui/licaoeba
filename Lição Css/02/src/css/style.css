@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(119, 37, 196, 0.932);
+    font: normal 15pt Arial;
+}
+
+.container {
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    background-color: rgba(232, 237, 241, 0.849);
+    border-radius: 85px;
+    align-items: center;
+    text-align: center;
+    padding: 8px 20px;
+    margin: 20px;
+    width: 45%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 105%;
+    height: 105%;
+    border-radius: 85px;
+}
+
+h2 {
+    font-size: 200%;
+    position: relative;
+    top: 100px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer {                     utilizar nas outras páginas
+    margin-top: 173px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+} */
+
+/* header {                        utilizar nas outras páginas
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+} */
